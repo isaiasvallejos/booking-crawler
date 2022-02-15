@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "rootDir": "./",
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "strict": true,
+    "baseUrl": "source",
+    "paths": {
+      "@infrastructure/*": ["infrastructure/*"],
+      "@ports/*": ["ports/*"],
+      "@services/*": ["services/*"],
+      "@logic/*": ["logic/*"],
+      "@use-cases/*": ["use-cases/*"],
+      "@errors/*": ["errors/*"],
+      "@core/*": ["core/*"],
+      "@modules/*": ["modules/*"]
+    }
+  }
+}
